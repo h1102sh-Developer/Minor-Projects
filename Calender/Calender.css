@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #ebebeb;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5rem;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 20rem;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .container .month {
+    background-color: rgb(70, 187, 223);
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .container .day {
+    opacity: 0.3;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .container .date {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .container .year {
+    font-size: 1.2rem;
+    opacity: 0.3;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
